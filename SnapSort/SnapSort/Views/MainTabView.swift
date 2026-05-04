@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct MainTabView: View {
-    @State private var selectedTab = 0
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+    @State private var selectedTab = 0
 
     var body: some View {
         Group {
